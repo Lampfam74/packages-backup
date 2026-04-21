@@ -1,0 +1,21 @@
+{
+  "name": "lampdevs/backup",
+  "description": "Lampedev Backup Package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LampDevs\\Backup\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LampDevs\\Backup\\BackupServiceProvider"
+      ]
+    }
+  }
+}
