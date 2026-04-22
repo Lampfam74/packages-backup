@@ -9,7 +9,7 @@ use ZipArchive;
 class BackupCommand extends Command
 {
     protected $signature = 'lamp:backup';
-    protected $description = 'Full ERP Backup (DB + Files + Zip)';
+    protected $description = 'Full lampeDev Backup (DB + Files + Zip)';
 
     public function handle()
     {
