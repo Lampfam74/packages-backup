@@ -1,6 +1,4 @@
 Voici ton **README.md en pur Markdown (propre, prêt Packagist / GitHub)** 👇
-
-````md
 # Laravel Backup Manager
 
 A simple and powerful Laravel package to automate full project backups.
